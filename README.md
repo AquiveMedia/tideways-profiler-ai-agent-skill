@@ -1,6 +1,6 @@
 # Tideways Profiler — Claude Code Skill
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that analyzes Tideways APM data to diagnose PHP performance bottlenecks, generate root-cause hypotheses, and prescribe actionable fixes.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that autonomously controls a browser to log in to Tideways, navigate the dashboard, and analyze APM data to diagnose PHP performance bottlenecks, generate root-cause hypotheses, and prescribe actionable fixes.
 
 ## What it does
 
