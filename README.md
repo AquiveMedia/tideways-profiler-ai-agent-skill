@@ -72,6 +72,13 @@ In any Claude Code conversation with a PHP project:
 
 The skill uses `playwright-cli` to navigate Tideways in a browser, take snapshots, and cross-reference findings with your local codebase and database.
 
+## Built with
+
+This skill was created following Anthropic's official skill authoring guidelines:
+
+- [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
+- [The Complete Guide to Building Skills for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) (PDF)
+
 ## License
 
 MIT
