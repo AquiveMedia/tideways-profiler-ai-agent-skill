@@ -72,6 +72,10 @@ In any Claude Code conversation with a PHP project:
 
 The skill uses `playwright-cli` to navigate Tideways in a browser, take snapshots, and cross-reference findings with your local codebase and database.
 
+## Status
+
+This is an initial release and has not been extensively tested yet. Feedback, issues, and pull requests are welcome.
+
 ## Built with
 
 This skill was created following Anthropic's official skill authoring guidelines:
