@@ -25,6 +25,7 @@ Every finding follows the format: **Symptom → Mechanism → Root Cause → Fix
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI
 - [playwright-cli](https://www.npmjs.com/package/@anthropic-ai/playwright-cli) skill for browser automation (Tideways interaction via snapshots)
 - A Tideways account with profiling data
+- [`superpowers:systematic-debugging`](https://github.com/obra/superpowers) skill (optional) — for root-cause investigation and fixing identified bottlenecks
 
 ## Installation
 
@@ -71,6 +72,13 @@ In any Claude Code conversation with a PHP project:
 ```
 
 The skill uses `playwright-cli` to navigate Tideways in a browser, take snapshots, and cross-reference findings with your local codebase and database.
+
+## Recommended workflow
+
+This skill pairs well with the [`superpowers:systematic-debugging`](https://github.com/obra/superpowers) skill:
+
+1. **tideways-profiler** identifies *what and where* — any performance bottleneck (slow queries, N+1 patterns, slow external calls, high memory usage, etc.)
+2. **systematic-debugging** resolves *why and how* — investigates the root cause in code and implements the fix
 
 ## Status
 

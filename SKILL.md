@@ -303,6 +303,12 @@ For Magento 2 projects, also see `references/magento2.md`.
 [Links to specific Tideways pages/traces used]
 ```
 
+## Handoff to Debugging
+
+When a finding requires deeper code-level investigation to understand *why* the code is structured that way or to implement a fix, use the `superpowers:systematic-debugging` skill.
+
+Tideways provides the **what and where** — systematic-debugging handles the **why and how to fix it**.
+
 ## Conversational Commands
 
 Support natural language analysis requests:
